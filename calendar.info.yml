@@ -1,9 +1,11 @@
 name: Calendar
 description: "Views plugin to display views containing dates as Calendars."
+type: module
 dependencies:
+  - composer_manager
   - views
   - date_api
   - date_views
 package: "Date/Time"
-core = 8.x
+#core: 8.x
 #stylesheets[all][] = css/calendar_multiday.css
