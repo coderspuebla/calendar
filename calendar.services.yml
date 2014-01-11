@@ -1,0 +1,6 @@
+service:
+  calendar.calendarfactory:
+    class: CalendR\Calendar
+  twig.register.calendarextension:
+    class: Drupal\calendar\Service\TwigRegister
+    arguments: ['@twig', '@calendar.calendarfactory']

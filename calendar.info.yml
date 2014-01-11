@@ -4,8 +4,7 @@ type: module
 dependencies:
   - composer_manager
   - views
-  - date_api
-  - date_views
+  - datetime
 package: "Date/Time"
-#core: 8.x
+core: 8.x
 #stylesheets[all][] = css/calendar_multiday.css
