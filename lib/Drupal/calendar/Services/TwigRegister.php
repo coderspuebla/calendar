@@ -20,7 +20,8 @@ class TwigRegister {
    * register extension
    * @param  \Twig_Enviroment $twig twig service
    */
-	public function __construc(\Twig_Enviroment $twig, Calendar $factory){
+	public function __construc(\Twig_Enviroment $twig, Calendar $factory) {
+	    //$factory->getEventManager()->addProvider('drupalprovider', $provider);
 		$twig->addExtension(new CalendarRExtension($factory));
 	}
 
